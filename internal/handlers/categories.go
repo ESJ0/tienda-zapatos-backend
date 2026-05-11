@@ -5,9 +5,9 @@ import (
 	"net/http"
 	"strconv"
 
+	"github.com/ESJ0/tienda-zapatos-backend/internal/models"
 	"github.com/go-chi/chi/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
-	"github.com/tu-usuario/zapatos-api/internal/models"
 )
 
 type CategoryHandler struct {
