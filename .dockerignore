@@ -1,0 +1,20 @@
+# Git
+.git
+.gitignore
+
+# Env 
+.env
+
+# Binarios compilados
+zapatos-api
+
+# Dependencias locales de Go 
+vendor/
+
+# Editor
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
