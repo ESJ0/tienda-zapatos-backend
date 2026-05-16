@@ -10,7 +10,7 @@ services:
     volumes:
       - postgres_data:/var/lib/postgresql/data
       - ./migrations/001_init.sql:/docker-entrypoint-initdb.d/001_init.sql
-      - ./migrations/002_seed.sql:/docker-entrypoint-initdb.d/002_seed.sql
+      - ./seeds/001_seed.sql:/docker-entrypoint-initdb.d/002_seed.sql
     ports:
       - "5432:5432"
     healthcheck:
@@ -25,7 +25,19 @@ services:
     restart: unless-stopped
     env_file: .env
     ports:
-      - "${PORT:-8080}:8080"
+      - "8080:8080"
     depends_on:
       db:
         condition: service_healthy
+
+  frontend:
+    build: ../tienda-zapatos-frontend
+    container_name: zapatos-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+
+volumes:
+  postgres_data:
