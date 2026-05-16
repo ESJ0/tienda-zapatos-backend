@@ -48,41 +48,41 @@ ON CONFLICT (email) DO NOTHING;
 INSERT INTO products (name, description, price, stock, size, color, brand, image_url, category_id, supplier_id) VALUES
     ('Nike Air Force 1',
      'El clásico de clásicos. Suela de aire, cuero blanco icónico.',
-     950.00, 30, 42, 'Blanco', 'Nike', '', 2, 1),
+     950.00, 30, 42, 'Blanco', 'Nike', 'https://ESJ0.github.io/tienda-zapatos-frontend/assets/shoes/nike-air-force-1.png', 2, 1),
 
     ('Nike Air Max 90',
      'Amortiguación visible Air Max con estilo retro de los 90s.',
-     1150.00, 20, 41, 'Negro/Rojo', 'Nike', '', 1, 1),
+     1150.00, 20, 41, 'Negro/Rojo', 'Nike', 'https://ESJ0.github.io/tienda-zapatos-frontend/assets/shoes/nike-air-max-90.png', 1, 1),
 
     ('Adidas Stan Smith',
      'Tenis de tenis reconvertido en ícono del streetwear mundial.',
-     899.00, 25, 40, 'Blanco/Verde', 'Adidas', '', 2, 2),
+     899.00, 25, 40, 'Blanco/Verde', 'Adidas', 'https://ESJ0.github.io/tienda-zapatos-frontend/assets/shoes/adidas-stan-smith.png', 2, 2),
 
     ('Adidas Ultraboost 22',
      'Máxima amortiguación con tecnología Boost para corredores.',
-     1399.00, 15, 43, 'Gris', 'Adidas', '', 1, 2),
+     1399.00, 15, 43, 'Gris', 'Adidas', 'https://ESJ0.github.io/tienda-zapatos-frontend/assets/shoes/adidas-ultraboost-22.png', 1, 2),
 
     ('Converse Chuck Taylor All Star',
      'La bota de lona más vendida de la historia.',
-     699.00, 35, 39, 'Negro', 'Converse', '', 2, 1),
+     699.00, 35, 39, 'Negro', 'Converse', 'https://ESJ0.github.io/tienda-zapatos-frontend/assets/shoes/converse-chuck-taylor-all-star.png', 2, 1),
 
     ('New Balance 574',
      'Perfil retro con amortiguación ENCAP. Cómodo todo el día.',
-     1050.00, 18, 42, 'Azul marino', 'New Balance', '', 2, 3),
+     1050.00, 18, 42, 'Azul marino', 'New Balance', 'https://ESJ0.github.io/tienda-zapatos-frontend/assets/shoes/new-balance-574.png', 2, 3),
 
     ('Vans Old Skool',
      'La primera Vans con la franja lateral. Skate y street.',
-     799.00, 22, 41, 'Negro/Blanco', 'Vans', '', 2, 3),
+     799.00, 22, 41, 'Negro/Blanco', 'Vans', 'https://ESJ0.github.io/tienda-zapatos-frontend/assets/shoes/vans-old-skool.png', 2, 3),
 
     ('Nike Air Jordan 1 Retro',
      'El zapato que cambió la historia del basketball y la moda.',
-     2199.00, 10, 44, 'Rojo/Negro', 'Nike', '', 1, 1),
+     2199.00, 10, 44, 'Rojo/Negro', 'Nike', 'https://ESJ0.github.io/tienda-zapatos-frontend/assets/shoes/nike-air-jordan-1-retro.png', 1, 1),
 
     ('Adidas Samba OG',
      'Originalmente para fútbol en interiores, ahora ícono de moda.',
-     949.00, 20, 40, 'Blanco/Negro', 'Adidas', '', 2, 2),
+     949.00, 20, 40, 'Blanco/Negro', 'Adidas', 'https://ESJ0.github.io/tienda-zapatos-frontend/assets/shoes/adidas-samba-og.png', 2, 2),
 
     ('Timberland 6-Inch Boot',
      'Bota impermeable de cuero premium, icónica en color trigo.',
-     1899.00, 12, 43, 'Trigo', 'Timberland', '', 5, 4)
+     1899.00, 12, 43, 'Trigo', 'Timberland', 'https://ESJ0.github.io/tienda-zapatos-frontend/assets/shoes/timberland-6-inch-boot.png', 5, 4)
 ON CONFLICT DO NOTHING;
