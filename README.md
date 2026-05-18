@@ -9,6 +9,17 @@ API REST en Go para la tienda de zapatos ESJ0. Construida con **Chi**, **pgx** y
 
 ---
 
+## Repositorios
+| backend  | https://github.com/ESJ0/tienda-zapatos-backend.git  |
+| frontend | https://github.com/ESJ0/tienda-zapatos-frontend.git |
+
+## Producción
+
+| Servicio | URL |
+|----------|-----|
+| API      | https://tienda-zapatos-backend-production.up.railway.app |
+| Frontend | https://esj0.github.io/tienda-zapatos-frontend/health    |
+
 ## 🚀 Levantar con Docker (recomendado)
 
 ```bash

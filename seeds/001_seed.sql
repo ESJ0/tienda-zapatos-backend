@@ -71,7 +71,7 @@ INSERT INTO products (name, description, price, stock, size, color, brand, image
 
     ('Vans Old Skool',
      'La primera Vans con la franja lateral. Skate y street.',
-     799.00, 22, 41, 'Negro/Blanco', 'Vans', '/shoes/vans-old-skool.jpg', 2, 3),
+     799.00, 22, 41, 'Negro/Blanco', 'Vans', '/shoes/vans-old-skool.png', 2, 3),
 
     ('Nike Air Jordan 1 Retro',
      'El zapato que cambió la historia del basketball y la moda.',
